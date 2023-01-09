@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-email = 'cuh2004@mail.ru'
-passwd = '89281439672qQ'
+email = 'qaz@mail.ru'
+passwd = '12345'
 
 
 def test_all_of_pets_are_present():
@@ -76,6 +76,7 @@ def test_same_names_of_pets():
     WebDriverWait(pytest.driver, 10).until(EC.presence_of_element_located((By.ID, "email"))).send_keys(email)
 
     # Вводим пароль
+    WebDriverWait(pytest.driver, 10).until(EC.presence_of_element_located((By.ID, "pass"))).send_keys(passwd)
 
     # Нажимаем на кнопку входа в аккаунт
     WebDriverWait(pytest.driver, 10).until(
