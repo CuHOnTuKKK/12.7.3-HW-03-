@@ -1,6 +1,6 @@
 # Команда для выполнения
-# python -m pytest -v -rA --driver Chrome --driver-path chromedriver.exe test_show_my_pet_with_awaitings.py
-# из папки C:\Users\Admin\PycharmProjects\pythonSelenium_24modul\tests>
+# python -m pytest -v -rA --driver Chrome --driver-path chrom.exe 25_5_1.py
+
 
 import pytest
 from selenium.webdriver.common.by import By
