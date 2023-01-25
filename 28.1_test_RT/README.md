@@ -2,6 +2,8 @@
 
 Тестирование ресурса - [ссылка](https://b2c.passport.rt.ru)
 
+Сценирии и баг репорты  https://docs.google.com/spreadsheets/d/1ARl1Y1KtgN5mC-6usEleHmexVMuEaQ4b06h9ZidFmSI/edit?usp=sharing
+
 Итого 20 тестов.
 
 Используемые инструменты:
